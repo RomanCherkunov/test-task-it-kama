@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 20px;
+}
+
+.block {
+    border: 1px solid black;
+    width: 300px;
+    min-height: 100px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stars img {
+    width: 20px;
+}
+
+.photo-item {
+    width: 100px;
+}
+
+.image {
+    width: 100px;
+}
+
+.active {
+    background-color: rgb(247, 231, 20);
+}
